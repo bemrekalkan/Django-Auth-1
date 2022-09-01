@@ -133,3 +133,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+#? Method to append below existing table (POLYMORPHISM) 👇
+# AUTH_USER_MODEL = 'users.User'
