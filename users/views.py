@@ -32,8 +32,6 @@ def register(request):
 
             return redirect('home')
 
-
-
     context = {
         'form_profile' : form_profile,
         'form_user' : form_user
