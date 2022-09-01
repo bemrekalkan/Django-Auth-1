@@ -15,5 +15,7 @@ class UserForm(UserCreationForm):
 class UserProfileForm(forms.ModelForm):
     class Meta():
         model = UserProfile
-        # fields = '__all__'
+        #! fields = '__all__'
         exclude = ('user',)
+        #? 👆 Let all fields come except 'user'
+        #! Since we are using a single element tupple, we put ',' at the end
